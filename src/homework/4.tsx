@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  useMemo,
-  useState,
-  useContext,
-  ReactNode,
-} from "react";
+import { createContext, useMemo, useState, useContext, ReactNode } from "react";
 import noop from "lodash/noop";
 
 type MenuIds = "first" | "second" | "last";
